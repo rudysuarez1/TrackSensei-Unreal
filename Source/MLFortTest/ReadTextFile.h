@@ -20,7 +20,7 @@ class MLFORTTEST_API UReadTextFile : public UBlueprintFunctionLibrary
 public:
 
 	UFUNCTION(BlueprintCallable)
-	static FString ReadStringFromFile(FString FilePath, bool& bOutSuccess, FString& OutInfoMessage);
+		static FString ReadStringFromFile(FString FilePath, bool& bOutSuccess, FString& OutInfoMessage);
 
 
 
